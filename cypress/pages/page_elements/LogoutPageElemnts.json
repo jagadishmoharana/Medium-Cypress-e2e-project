@@ -1,0 +1,5 @@
+{
+    "accountButton":"#account-button",
+    "logoutButton":"[data-test-id='logout-button']"
+
+}

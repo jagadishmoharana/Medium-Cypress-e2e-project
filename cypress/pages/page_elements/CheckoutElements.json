@@ -1,0 +1,16 @@
+{
+    "firstName":"#shipping-address-first-name",
+    "lastName":"#shipping-address-last-name",
+    "pincode":"#shipping-address-postal-code",
+    "adddressLine1":"#shipping-address-address1",
+    "city":"#shipping-address-city",
+    "state":"#shipping-address-state-code",
+    "email":"#email",
+    "phoneNumber":"#phone-number",
+    "billingAddress":"[for='shipping-address-use-as-billing'] > .relative",
+    "continuePayment":"[data-test-id='continue-to-payment']",
+    "upi":"#razorpay-radio-input",
+    "cashOnDelivery":"#cod-radio-input",
+    "placeOrder":"[data-test-id='place-order'] > div > div"
+
+}

@@ -1,0 +1,7 @@
+{
+    "Title":"#pdp-product-title",
+    "price":"[data-test-id='item-sale-price-pdp']",
+    "size":"#size-picker label [data-content='size-value']",
+    "addToWishlist":"#add-to-wishlist",
+    "addToCart":"[data-test-id='add-to-cart-button']"
+}

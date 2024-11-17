@@ -1,0 +1,12 @@
+{
+    "RegistrationElementLocators":{
+        "popup":"[data-test-id='verify-my-phone']",
+        "firstName":"#firstName",
+        "lastName":"#lastName",
+        "phone":"#phoneNo",
+        "email":"#email",
+        "password":"#password",
+        "terms":"#terms",
+        "continue":"[data-test-id='auth-button-register']"
+    }
+}

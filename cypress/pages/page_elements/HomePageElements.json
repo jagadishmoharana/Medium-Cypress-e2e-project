@@ -1,0 +1,12 @@
+{
+    "home":"[data-test-id='main-nav-home-link']",
+    "search":{
+            "searchField":"[data-test-id='search-icon-nav']",
+            "searchButton":"[type='submit']",
+            "ProductList":"[data-test-id='product-list-item']"
+            
+    },
+    "navbarLinks":"[data-test-id='main-nav-bar'] [href]",
+    "footerLinks":"[data-test-id='footer-top'] [href]"
+
+}
