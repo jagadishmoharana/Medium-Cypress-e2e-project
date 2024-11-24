@@ -1,11 +1,10 @@
-Based on your folder structure, here’s an updated and well-structured README file tailored to your **Cypress E2E Testing Project** that reflects the setup:
 
 ```markdown
 # 🐾 Puma Cypress E2E Testing Project
 
 Welcome to the **Puma Cypress End-to-End (E2E) Testing Project** repository! This project is focused on automating the testing process for the Puma e-commerce platform using Cypress to ensure a seamless and reliable user experience.
 
----
+
 
 ## 🚀 Project Overview
 
@@ -14,12 +13,25 @@ This project implements the Page Object Model (POM) design pattern to organize t
 - **Modular design** using page actions and page elements.
 - Comprehensive test coverage for key user flows such as product search, cart management, and checkout.
 
----
+
 
 ## 📂 Folder Structure
+# 🐾 Puma Cypress E2E Testing Project
 
-Here’s an overview of the folder structure in the `cypress` directory:
+Welcome to the **Puma Cypress End-to-End (E2E) Testing Project** repository! This project focuses on automating the testing process for the Puma e-commerce platform using Cypress, ensuring a reliable and user-friendly shopping experience.
 
+Here’s an overview of the folder structure :
+### Root Directory
+```plaintext
+├── cypress/               # Contains all Cypress-related files and folders
+├── node_modules/          # Project dependencies (installed via npm)
+├── README.md              # Project documentation
+├── cypress.config.js      # Cypress configuration file
+├── package-lock.json      # Automatically generated dependency lock file
+├── package.json           # Project metadata and dependencies
+
+
+###Inside cypress/ Directory
 ```plaintext
 cypress/
 ├── e2e/                    # Contains test scripts
@@ -67,7 +79,7 @@ cypress/
 The following scenarios are automated and tested:
 
 1. **Authentication**:
-   - Login with valid and invalid credentials.
+   - Login with valid credentials.
    - Logout functionality.
 
 2. **Navigation and Search**:
@@ -87,7 +99,7 @@ The following scenarios are automated and tested:
 5. **Data-Driven Testing**:
    - Use of `fixtures` to test with multiple data sets for login, checkout, and search functionality.
 
----
+
 
 ## 🚀 Getting Started
 
@@ -120,7 +132,7 @@ Follow these steps to set up and run the tests locally:
    npx cypress run
    ```
 
----
+
 
 ## 🤝 Contributing
 
@@ -132,7 +144,6 @@ Contributions are welcome! To contribute:
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
----
 
 ## 📊 Reporting and Monitoring
 
@@ -142,32 +153,24 @@ To integrate with the Cypress Dashboard for advanced reporting:
 - Run tests with:
   ```bash
   npx cypress run --record
-  ```
+  
 
 ### Test Results
 View the test results in the terminal or from the Cypress Test Runner.
 
----
+
 
 ## 📞 Support
 
 If you have any questions, feel free to reach out:
 - **Email**: [jagadishmoharana02@gmail.com](mailto:jagadishmoharana02@gmail.com)
 
----
+
 
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 ```
 
----
 
-### Key Additions:
-1. **Folder Structure Explanation**: Mapped out the directories with descriptions for better understanding.
-2. **Test Coverage**: Detailed breakdown of scenarios implemented.
-3. **Data-Driven Testing**: Highlighted the use of JSON fixtures.
-4. **Getting Started**: Clear steps to install and run tests locally or headlessly.
-5. **Advanced Reporting**: Mentioned Cypress Dashboard integration for test results monitoring.
 
-This README matches the structure of your project while providing clarity and professionalism for potential collaborators or users.
