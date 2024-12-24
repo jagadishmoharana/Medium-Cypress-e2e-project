@@ -20,7 +20,7 @@ describe("puma website", () => {
         loginAction.isLoginVisible()//Check login button is exist and visible
         loginAction.clickOnLogin()// Clicks the login button to submit the login form.
     });
-    it.skip('Verify all the Navigation links Present in NavBar is working', () => {
+    it('Verify all the Navigation links Present in NavBar is working', () => {
         homepageAction.visitHomepage()//Navaigate to homepage
         homepageAction.isAllNavbarLinksWorking();//check all the navigation bar links are working
     })
