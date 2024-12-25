@@ -1,5 +1,5 @@
 {
     "cart":"#nav-cart-link",
-    "quantity":"[data-test-id='quantity-select-input']",
+    "quantity":"(//select[@data-test-id='quantity-select-input'])[1]",
     "checkout":"[data-test-id='cart-summary-checkout'] div [class]"
 }

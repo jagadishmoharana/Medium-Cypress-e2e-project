@@ -8,7 +8,7 @@ class CartPageAction {
 
     // Method to setProduct quantity
     setProductQuantity(quantity){
-        cy.get(cartLocators.quantity).select(quantity)
+        cy.xpath(cartLocators.quantity).select(quantity)
     }
   
     //Method for proceed to checkout
